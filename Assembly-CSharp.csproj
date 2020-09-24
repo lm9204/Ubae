@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\LifeCycle.cs" />
+     <Compile Include="Assets\Move.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/vapor/New Unity Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
