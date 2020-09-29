@@ -30,4 +30,9 @@ public class Ball : MonoBehaviour
         if(other.name == "Cube")
             rigid.AddForce(Vector3.up * 3, ForceMode.Impulse);
     }
+
+    public void Jump()
+    {
+        rigid.AddForce(Vector3.up * 20, ForceMode.Impulse);
+    }
 }

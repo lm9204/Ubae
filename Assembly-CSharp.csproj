@@ -58,8 +58,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Ball.cs" />
      <Compile Include="Assets\LifeCycle.cs" />
      <Compile Include="Assets\Move.cs" />
+     <Compile Include="Assets\OtherBall.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/vapor/New Unity Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="129d8a8e-e2f9-40c1-834b-997656dcc79d" name="Default Changelist" comment="09.25E11">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/dictionaries" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ball.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ball.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ball.physicMaterial.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Move.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/OtherBall.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/otherball.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/transparent.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/ArtifactDB-lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/02/0243a53ea67b2a22fcef857480277791" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/03/03bfe56c27d3df819ae0cde4c061ceda" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/04/04a84294935c17811292cf36686a19b4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/05/05e6b73e0ba33796e1a7197674a5b8a6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/07/072958dea494306938a4d3c12e94d32f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/0a/0a7b1aee5b82f301da1940d5591caedf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/0b/0b5605bf6ab48ab5643108632954db54" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/0b/0bca4a31ef66dc29622b023914049d6c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/0c/0c151b03e2192448044ddb90100d4a6d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/0c/0c2f1e63d62e70e98cf5db6e908c7082" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/0c/0c93f18b8e5f9005f21ceae19588d158" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/0c/0cd31b0d2a14bcd13ac5465d096b82a7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/0d/0de969ad4c5de35405551e3361085bd0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/10/10b91a34f883a26737bb1b51c1d7d2e7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/11/11aac6492891e4f5af42aa769da90975" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/11/11fa42eaeaee051363640e325663209e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/13/136733369f730e212a4c89eaa2ed82e3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/14/14c3ab8c980a1673ae5a73984f7ff7c0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/15/15282b1e4ae013a15b6e0ef7a878aa90" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/15/158cbff2be050171e528336ef91f1aeb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/17/1750c87b6655e1695c646ed2e08699da" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/17/17c0312bc82f48a15060041651539ab5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/17/17c70a7d82922cab67439790eee2b1de" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/19/19a83a896ca4e31324132dee4143cce1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/19/19ff68d136c0273bae40d0546c55e473" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/1b/1b5696e3a59984c0e3955c333bdbf915" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/1b/1b665fb3d6a1bd8956c063a87780bf35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/1c/1c94d2dd5d734726d80fac714e6a34f2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/1d/1dbacd5f7d122f325ad842a21f81ebb4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/1f/1fec442c704ddf090ea5398d42d9df79" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/21/216a31fe184d824908fdcfbf41f044d8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/21/218b4ab5ad84f6287d370def3e2ded8e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/22/22a95a17307907f95bb671d6bd732c3f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/22/22cb9cfb9240c96bcb22110e2755ed78" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/23/23e161b44a9173c5c621d2ed8f4182fb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/25/25580ed8d4dd7ff7243d965f929f7e9c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/26/26164d12ee5ab053b836889c61e5c999" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/27/27f273b5010cf3093055dace94c6f6cb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/2a/2a4fc6e71962a80af60e19ab02c21e05" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/2b/2b56aa8096e52d8454fc75ac2684c041" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/2f/2f065d8ecf51646f1b55eda19a577d4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/2f/2f0e07adf97d2ebb4b04c37f95b0c44d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/2f/2f4a8feb260d51880aa401efde188b86" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/2f/2fd4601b5bc03a4864f62d67b984bf31" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/30/30703017c8183035cbd9a8bb5d3a788f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/30/30a28ef7461f19c708b8bc112897c0fa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/31/311d87dc574d6c624633ddc5d572c81c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/31/315a134c6270ed7321ed765bbe5ffae8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/31/31a3e29fee0ff2e880e7136dc85f533c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/32/32eb39668c7ccf46f443641e56ed91f1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/32/32efc4fa839f1d19a3c7e99130f84fc5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/37/37bee9b8072e9e71f4af6ef5152ac205" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/37/37e85b0509bd13266df17638bf50745d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/39/394317d02325b9551d5df990c37dc78d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/3c/3c66479c63e768e41b6201e7ea68180d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/3d/3dd2721e2a27f42b913cf01cd04ee0a1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/3e/3e4f0dc9a57a32ea3bd96cf27dd54785" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/3e/3ef691ea35cf2c490a834da4be3a95bf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/3f/3f3ee0d1ddcecce204880667033fedd5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/3f/3f878ef34779674a3880a4f567a87ff5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/40/40bdc5d8d36df7c169fee5f1558c6d24" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/41/41c6c5869236961c25aec4229d604fdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/43/43ca8b4a101c201f8ef84a442d8a737b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/49/492061781ebedecaf31e017bcdd0f1ea" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/4b/4b947ceba308a437a48435a0219b6961" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/4c/4cde58ef1c7c9658c84bd46b99dca6a8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/4d/4d445b924cc27c6848cf3564615acbc5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/4e/4eed0ec6664fc321d2a77719d053161d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/54/54e3244cdcde02d751438f3f5ba6b022" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/59/5938b175ab4df58dc45ba8f19c89a992" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/5a/5acc5bd0a79b246d306d19d841b9a60f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/5b/5b514b5d80f69e7f06d9ee595cfa8a40" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/5f/5f158bdca514b7005fd67cc33e74f46c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/5f/5f6aa4a06bd002a2ac25a4669f59e084" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/5f/5fc54be2f496384b2323eb4745c32532" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/60/60035ee53f65120fb773df25d99234b2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/60/60788f4d45222aaf4c7079d310470c16" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/60/60895e53e76e4c39555b92407e8607ac" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/60/60a6077cb284d30827bf713a4659b0da" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/60/60ea0fb48f5b3f0e142d0f8945af2cfa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/61/615421a6d409491a71d889e052710fda" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/61/61b40f63cc02ee6612de87f34a70be24" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/62/626f414542b7fe24135bc64ef9488d66" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/62/62e7adbaddee6d078d945b47d4e18391" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/66/6617738f4df2d51874508a6d25cffd90" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/66/66ae9522e70043fc1badc31405e47dcc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/6a/6a5022a71cfae4bb0a557b5553bfa511" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/6b/6b868a0b9eb043ea448bd932e1e1ab13" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/6b/6b9e464323e03a3b4939ce1ca787eb81" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/6d/6d209872e85dcfff396212f102c1de6e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/6f/6f5780dcc25f319469d9824ad59aab44" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/70/70286b41c1fec926066962cd62baf377" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/70/70eac1a97fc271a6a14c5f68796dd3b9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/71/713cdbd97ca78faf78d447b30a2f7bb9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/72/722d1ecc1ba7f6d1b157d38062f58b7e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/72/72a1de785fa1b655e28f4bb5f07c846e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/73/73a6f0d362d26ac5ff86c50402b3bcce" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/74/74dadc7d8fc11b4662468d9b5ba8a855" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/75/75247953049343b78cd8eb81a1b09975" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/75/753a85587535c2e7263aea327eb6d601" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/75/754361d846b1f7253c502e40dc609f0d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/76/766ea67ed995347ab6833794eca17b03" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/78/7808c154cf09768b6b1b29474f47efc7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/78/783172cd7bd19e237711bfd485ee00cb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/79/79ec9924523cab891e1402fd42acd369" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/7a/7a05fd93ceae298a2c3157bd30858a3f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/7a/7a1ddd4bb62494c94d9a519402133b72" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/7a/7aeb3d6a5a47ec41f79feb9b89ba8a25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/7b/7bcf1c1dac433557299f90223a6b1796" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/7b/7bfd7499a82cee5ba7c83967ff2f2c1f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/7d/7dbd59735a416a6110479d14d2b63645" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/7e/7efdcff27bd175e6eae871495b1d3b62" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/7f/7f891650b7ad968c7cc5f97d8681266b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/81/814e5cb2e8d6843d2998664bfd72c500" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/82/820b9b6457103e9855865242eb254a7c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/82/8290e3e5a0bca5a9c3ed27df81cc77bb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/82/82a181d693fc11eb240ac23acf9d5c84" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/82/82c2a0c0d3c6bdb73ebf9dc363981ca7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/83/833f35aee991b779f26a6f8a5a7863f6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/85/8590f7d3e07e939249c272c12a185214" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/86/8685fcaca9212d940fd36343311881ce" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/88/88c81a6ce04de6f243d41206e6ca9679" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/8a/8ab08999f6dc3181060761e5c7857520" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/8b/8bb706583cb006f5b1288fdbe546934e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/8d/8d9335ba1d73e3dd91f806bff1b28d7b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/8d/8dfc92e2f17201b70c1de8e7af2bc3b0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/91/910adcf43850d7ae01b423829a7ddd4e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/91/91a09b071d8926c55923b4d3ebeb4f7c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/92/927dcc81ce763076e821b77529e4cb0c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/92/929ebbecb7267f5cba05c6f029ddf9dc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/93/933d5d1ae54ff1344a090d48eeeb712f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/94/94c9710c066b3083af6057142c256cbc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/95/952c7d6012e4bc75dd1a858d0cfdf629" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/95/95a80de8eab62c2f9fb7141c993217ba" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/96/9674e6465095bd293c7017953011b408" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/97/9729377a255f814b26c5df6184d6fb51" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/98/980c2657fe63f17d462d96d903b7470b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/99/990b0656fe1ac3599673d49ceede9694" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/99/991b65eaf9c77f202f2cc2ad70cf9abc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/99/99372eb76fae885a6f5175e68739038e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/9b/9b07686f1d59f03993ec15802623d45f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/9b/9b52c4040e8e6870a743b629e8d55041" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/9c/9c9f84d493c412ccd7f753ed29b2e4b9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/9d/9dab3a3b35360357e18da0c00d310112" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/9e/9e7ad4bbfb3dc99a7f6b0be8568b899f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/a2/a2a3781e1925b968fa785439a5e66095" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/a5/a5f88a84800d4f6af0b3434397436b8a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/a7/a73257752b3bb8d7ce052b37b4fac1d3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/a8/a8e272fc6addfa8130c9e74049931fea" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/aa/aa24772ec75bd379fcc96a3c895fc0be" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/ab/ab69bad4b5b573dd7625e520f45bea61" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/ac/ac6a4fe3812fe4f6d5b2f9565d9fb02a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/ad/ad40db2c3f251c401a10af5340bb1eee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/ad/ad6a78212b527c04a9da922fba4262dd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/ad/add3807966f73f68a10333821d37c06b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/af/af94c64bfaf04dce5226c2638b267908" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/b2/b26e5cd893634fa5a8a7e262440aafaa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/b3/b309dcee73d4f00749165a2e28a709c2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/b3/b3b371f50aec8a6be8691d78d23c3841" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/b5/b52614ae33535fa424b2e68d367b99fc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/b5/b566ec22b786d9619e28a24bb0ce64b8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/b5/b590939d60c4947557384ace34a1cce4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/b6/b6899c9e22147f5b028de9da248d0764" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/b7/b756de9ad0cb605148b1b88e00305c97" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/b7/b79063880b46c42d0667d7f20ab39160" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/b7/b7c1235e76d578a7de744099117731fb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/b9/b9aa9e9b3eba50b82049d5df83776a7a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/bb/bb29be37212ee28f51b46e97fd343ae0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/bc/bc3d15c659a728582a5bd06e27a56499" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/bc/bcf5208b7c74448a72676c1d368d3dbb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/bd/bdadc6f10462fc074035fe6b34452ecc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/bf/bf4ccc016a5ee77e0e7df5f205d1e5a8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/c0/c03c5a55edb8174c8a03b88c99f2b204" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/c2/c256c207d95d4e1c1e7b3fffa2aa1527" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/c5/c5883655cd80f231ffc30fdca3011be5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/c5/c598b809967f469a53fff66a98c65e36" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/c5/c5d7388fd4a8d7474da8675998ccfaef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/c8/c88f37dc6fd742291ad236c8ad909719" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/c9/c9a69c6c76d8c46d1086ffbe03df2419" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/ca/ca4de5b7044b4279c5dfdf824fcd4218" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/ca/ca5341764a707da0acaf60104324635c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/cb/cbae3560326b96c5ef1e7dd3540a7b94" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/cd/cdf2b6b6f808c42ab31e0733d7628584" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/d1/d1fe6594b6e55d0b2f789b365d471b41" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/d2/d2ebe5deb545a0870114b40c58c7f6cf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/d2/d2ebfd363b47f7aa9ce693602bde95c0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/d4/d40f57679420e867dc83ca5f60a59466" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/d4/d48b08acfe11c95dd0e67102f833bf74" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/d5/d5329a8037aded4689c2a45d3177937d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/d5/d5ef7b8b971acc8b4708303bc1967333" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/d7/d70ebd7156c2620d6c7db73680a14710" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/db/db881df2f1c733843d22e885309866ef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/dc/dcf7c57e055baf38244fb23cd612e9dc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/dd/dd765459912eba1c87cba3df70de0be7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/de/de9b19b213a24522e765c63b91e18d8d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/df/df5196643b18d747b3f80fbe5e630ea5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/df/dfbf7ab1812365d4e04a0b6871e2d03a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/e1/e16bb4d98688b3d502a100f105aa402f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/e2/e2924f3969c3e14fcace0e4c0505ac60" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/e3/e30957d51c0598cb737f597d4ca36a87" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/e3/e3ee7b8ff278610503a1bbac33106fdd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/e5/e5ee05fe2e9b4e8411cde430fb9e962d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/e6/e671a399cbf476c717fc933a11b559f5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/e8/e8194503f58f07da5a97290070b0df24" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/eb/eb72d48152e90ab799139247627e9a7b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/eb/eb7f37ff59ac9d6053515047b056ebd7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/ee/eec9ee7b5786a046e3d23f70c7ea08d5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/ef/ef17e82e95d4dff056d9440854356a6b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/ef/ef98a5c6cecae7d31de0c5b133836d32" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/ef/efb1e038e12220a3f996c9438fe63985" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/f0/f07aaf3addfbcef8517fb5495438f796" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/f0/f0918a273219a5a6b392032b4e1d7aef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/f2/f2e012061dc8967008c37b01d601ff9d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/f3/f3d1afad3d4c852b91e911a6a76aeccf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/f5/f57c8e76981f6f46d9bbc48ee7f56814" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/f6/f603e975de195fec8d1a7932e3c6163f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/f7/f782306432601958a2a7456f5d1d1f10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/fa/fa1b2403e10e18b0c7b452ba795b11af" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/fc/fc52fb72083a2a331833fb87a25ac16f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/Artifacts/fd/fdb117acdb245658c963ce0ebd3666c7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/BuildPlayer.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/LibraryFormatVersion.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/CollabAnalytics.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/CollabHistoryItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/HistoryProgressSpinner.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/PagedListView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/Views/StatusView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Resources/Styles/CollabHistoryLight.uss.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.ide.rider@1.1.4/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.ide.rider@1.1.4/Rider/Editor/PluginSettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.ide.rider@1.1.4/Rider/Editor/PostProcessors.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.ide.rider@1.1.4/Rider/Editor/Util/CommandLineParser.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.ide.rider@1.1.4/Rider/Editor/Util/LibcNativeInterop.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.ide.vscode@1.2.1/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.ide.vscode@1.2.1/Editor/ProjectGeneration/FileIO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.ide.vscode@1.2.1/package.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/Api/CallbacksDelegator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/Api/Filter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/Api/Filter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/Api/ICallbacksDelegator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/Api/ICallbacksHolder.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/Api/ITestAdaptor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/Api/ITestAdaptor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/Api/RunState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/Api/TestAdaptorFactory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/Api/TestMode.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/CommandLineParser.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/CommandLineTest/ISettingsBuilder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/CommandLineTest/ResultsSavingCallbacks.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/CommandLineTest/ResultsWriter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/CommandLineTest/RunData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/CommandLineTest/RunSettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/GUI/TestListBuilder/TestFilterSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/GUI/TestListBuilder/TestFilterSettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/GUI/TestListBuilder/TestTreeViewBuilder.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/GUI/TestListTreeView.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/GUI/Views/PlayModeTestListGUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/NUnitExtension/Attributes/TestPlayerBuildModifierAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/RequirePlatformSupportAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/TestBuildAssemblyFilter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/TestBuildAssemblyFilter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/TestLaunchers/AttributeFinderBase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/TestLaunchers/PlatformSetup.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/TestLaunchers/PlatformSetup/LuminPlatformSetup.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/TestLaunchers/PlatformSetup/PlatformSpecificSetup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/TestLaunchers/PlaymodeLauncher.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/TestLaunchers/RuntimeTestLauncherBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/TestRun/Tasks/PrebuildSetupTask.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/TestRun/Tasks/PrebuildSetupTask.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/TestRun/TestJobData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/TestRunner.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/TestRunner/Callbacks/WindowResultUpdater.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/TestRunner/EnumeratorStepHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/TestRunner/Messages/ExitPlayMode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/TestRunner/Messages/WaitForDomainReload.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/TestRunner/Messages/WaitForDomainReload.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/TestRunner/Utils/EditorAssemblyWrapper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/TestRunner/Utils/IEditorCompilationInterfaceProxy.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/TestRunner/Utils/ITestListCacheData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/TestRunner/Utils/ITestListProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/TestRunner/Utils/TestListCacheData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/TestRunner/Utils/TestListJob.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/TestSettings/TestSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/TestSettings/TestSettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/UnityEditor.TestRunner.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/UnityEditor.TestRunner.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/UnityTestProtocol/TestState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEditor.TestRunner/UnityTestProtocol/UtpDebuglogger.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/AssemblyInfo.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Assertions.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Assertions/ConstraintsExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Assertions/LogScope/LogEvent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Assertions/UnityTestTimeoutException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Assertions/UnityTestTimeoutException.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/ActionDelegator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableApplyChangesToContextCommand.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableRepeatedTestCommand.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Commands/TestCommandPcHelper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Filters.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Runner/FailCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Runner/TestCommandBuilder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityTestAssemblyRunner.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityWorkItemDataHolder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Runner/WorkItemFactory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/TestExtensions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/TestRunner.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/TestRunner/Callbacks/PlayModeRunnerCallback.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/TestRunner/Callbacks/PlayerQuitHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/TestRunner/PlaymodeTestsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/TestRunner/RemoteHelpers/PlayerConnectionMessageIds.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/TestRunner/SynchronousFilter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/TestRunner/TestEnumeratorWrapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/TestRunner/TestPlatform.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/UnityEngine.TestRunner.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/AssemblyProvider.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/AssemblyProvider/AssemblyLoadProxy.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/AssemblyProvider/AssemblyWrapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/AssemblyProvider/IAssemblyLoadProxy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/AssemblyProvider/IAssemblyWrapper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/AssemblyProvider/IScriptingRuntimeProxy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/AssemblyProvider/ITestAssemblyProvider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/AssemblyProvider/PlayerTestAssemblyProvider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/AttributeHelper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/CoroutineRunner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/IOuterUnityTestAction.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/TestRunCallbackAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/TestRunCallbackListener.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/Vector3ComparerWithEqualsOperator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/Vector3EqualityComparer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Editor Resources/Gizmos/TMP - Text Component Icon.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Editor Resources/Shaders.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Editor Resources/Textures/SectionHeader_Dark.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Editor Resources/Textures/SectionHeader_Dark.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Editor Resources/Textures/btn_AlignBaseLine.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Editor Resources/Textures/btn_AlignBottom.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Editor Resources/Textures/btn_AlignJustified_Light.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Editor Resources/Textures/btn_AlignLeft_Light.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Editor Resources/Textures/btn_AlignMiddle.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Editor Resources/Textures/btn_AlignMiddle_Light.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/PackageConversionData_Assets.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Editor/TMP_BaseEditorPanel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Editor/TMP_BitmapShaderGUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Editor/TMP_DropdownEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Editor/TMP_EditorCoroutine.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Editor/TMP_FontAssetEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Editor/TMP_GlyphPropertyDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Editor/TMP_MeshRendererEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Editor/TMP_SDFShaderGUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Editor/TMP_SerializedPropertyHolder.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Editor/TMP_StyleSheetEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Editor/TMP_UIStyleManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Editor/TMPro_CreateObjectMenu.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Editor/TMPro_EditorShaderUtilities.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Runtime/ITextPreProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Runtime/MaterialReferenceManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Runtime/TMP_EditorResourceManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Runtime/TMP_FontFeaturesCommon.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Runtime/TMP_ListPool.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Runtime/TMP_MaterialManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Runtime/TMP_MeshInfo.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Runtime/TMP_RichTextTagsCommon.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Runtime/TMP_SelectionCaret.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Runtime/TMP_Settings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Runtime/TMP_SpriteCharacter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Runtime/TMP_SpriteGlyph.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Runtime/TMP_SubMesh.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Runtime/TMP_Text.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Runtime/TMP_TextProcessingStack.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Runtime/TMP_UpdateRegistery.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Runtime/TMPro_ExtensionMethods.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Runtime/TMPro_MeshUtilities.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Runtime/TMPro_Private.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Runtime/TMPro_UGUI_Private.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Runtime/TextContainer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Runtime/TextMeshProUGUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Tests.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Tests/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Tests/Runtime/TMP_RuntimeTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.textmeshpro@2.1.1/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Animation/BindingTreeViewDataSourceGUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Animation/ClipCurveEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Animation/TimelineAnimationUtilities.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Attributes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Audio/AudioTrackInspector.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/CurveEditUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/CurveEditUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/CustomEditors/CustomTimelineEditorCache.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/CustomEditors/MarkerEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/CustomEditors/MarkerTrackEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/DirectorNamedColor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/DirectorStyles.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Items/ItemsUtils.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Manipulators/Move/IMoveItemMode.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Manipulators/Move/MoveItemModeMix.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Manipulators/Move/MoveItemModeRipple.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Manipulators/Sequence/RectangleSelect.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Manipulators/Trim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Manipulators/Trim/TrimItemModeMix.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Manipulators/Utils.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Manipulators/Utils/EditModeGUIUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Manipulators/Utils/EditModeMixUtils.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/MenuOrder.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Recording/AnimationTrackRecorder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Recording/TimelineRecording.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Recording/TimelineRecording.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Recording/TimelineRecordingContextualResponder.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Recording/TimelineRecording_PlayableAsset.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Signals/SignalEmitterEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Signals/SignalManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Signals/TreeView/SignalReceiverTreeView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/State/SequencePath.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/State/WindowState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/StyleSheets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/StyleSheets/Extensions/light.uss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/StyleSheets/Images.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/StyleSheets/Images/DarkSkin/TimelineActivation.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/StyleSheets/Images/DarkSkin/TimelineDisabledBackground.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/StyleSheets/Images/DarkSkin/TimelineIconClipIn.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/StyleSheets/Images/DarkSkin/TimelineIconClipOut.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/StyleSheets/Images/DarkSkin/TimelineKeyframe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/StyleSheets/Images/DarkSkin/TimelinePlayRange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/StyleSheets/Images/Icons/TimelineClipFG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/StyleSheets/Images/Icons/TimelineEditModeReplaceOFF.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/StyleSheets/Images/Icons/TimelineSelector.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/StyleSheets/Images/Icons/d_TimelineEditModeMixOFF.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/StyleSheets/Images/LightSkin/TimelineActivation.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/StyleSheets/Images/LightSkin/TimelineAutokey.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/StyleSheets/Images/LightSkin/TimelineCollapseMarkerButtonEnabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/StyleSheets/Images/LightSkin/TimelineCurvesOff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/StyleSheets/Images/LightSkin/TimelineDisabledBackground.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/StyleSheets/Images/LightSkin/TimelineHold.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/StyleSheets/Images/LightSkin/TimelineIconClipIn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/StyleSheets/Images/LightSkin/TimelineIconClipIn.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/StyleSheets/Images/LightSkin/TimelineIconClipOut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/StyleSheets/Images/LightSkin/TimelineLoop.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/StyleSheets/Images/LightSkin/TimelineSignalCollapsed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/StyleSheets/Images/LightSkin/TimelineStartPlayback.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/StyleSheets/Images/Shared/TimelineConnector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/StyleSheets/Images/Shared/TimelineSeqEnd.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/TimelineEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/TimelineUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Tooltip.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Unity.Timeline.Editor.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Utilities/AnimatedParameterUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Utilities/ControlPlayableUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Utilities/CustomTrackDrawerAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Utilities/KeyTraverser.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Utilities/TrackResourceCache.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Utilities/TypeUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Window/Modes/TimeReferenceMode.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Window/Modes/TimelineInactiveMode.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Window/Modes/TimelineMode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Window/TimelineMarkerHeaderGUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Window/TimelineWindow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Window/TimelineWindow_ActiveTimeline.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Window/TimelineWindow_EditorCallbacks.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Window/TimelineWindow_PlayRange.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Window/TimelineWindow_PlayableLookup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Window/TimelineWindow_PreviewPlayMode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Window/TimelineWindow_Selection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Window/TimelineWindow_StateChange.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Window/TimelineWindow_TimeCursor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Window/WindowConstants.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/Window/WindowConstants.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/inspectors/BuiltInCurvePresets.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/inspectors/ClipInspector.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/inspectors/ClipInspector/ClipInspector.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/inspectors/ClipInspector/ClipInspectorSelectionInfo.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/inspectors/CurvesOwner.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/inspectors/CurvesOwner/ICurvesOwnerInspectorWrapper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/inspectors/DirectorNamedColorInspector.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/inspectors/EditorClip.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/inspectors/EditorClip.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/inspectors/GroupTrackInspector.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/inspectors/GroupTrackInspector.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/inspectors/TimeFieldDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/treeview/Drawers/ClipDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/treeview/Drawers/ClipDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/treeview/Drawers/InfiniteTrackDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/treeview/IPropertyKeyDataSource.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/treeview/IRowGUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/treeview/InlineCurveEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/treeview/ItemGui/ISelectable.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/treeview/ItemGui/TimelineMarkerClusterGUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/treeview/ItemGui/TimelineMarkerClusterGUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/treeview/ManipulationsClips.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/treeview/PickerUtils.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/treeview/TimelineDataSource.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Editor/treeview/TimelineTreeView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Runtime/Activation/ActivationMixerPlayable.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Runtime/Activation/ActivationTrack.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Runtime/Evaluation/InfiniteRuntimeClip.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Runtime/Evaluation/RuntimeClip.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Runtime/Evaluation/RuntimeClipBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Runtime/Events/Signals.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Runtime/Events/Signals/SignalAsset.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Runtime/Events/Signals/SignalAsset.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Runtime/Extensions.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Runtime/Playables/ActivationControlPlayable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Runtime/Playables/ActivationControlPlayable.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Runtime/Properties.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Runtime/Scripting/PlayableTrack.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Runtime/TimelineClip.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Runtime/TimelinePlayable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Runtime/Utilities.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Runtime/Utilities/Extrapolation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Runtime/Utilities/IPropertyCollector.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Runtime/Utilities/IPropertyPreview.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/PackageCache/com.unity.timeline@1.2.16/Runtime/Utilities/TimeUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/ShaderCache/0/0b53e163bb87309c6609ed1512461e14.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/ShaderCache/3/33931c94ddff3174519bca92970e1957.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/ShaderCache/c/c8c40f2358ae183287259ecbe5affeb5.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/ShaderCache/c/cb35015e2fd705c3e0460b89e5ad4384.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/ShaderCache/d/d0ca474fb3272021186f7ddc3ab9f4c3.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Library/ShaderCache/f/f5e596c9326163094c56d6f1cee7d973.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/Temp/UnityTempFile-12f612c3cbb866e48941cd41df7a5030" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기초예제BE1/기초예제BE1.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ball.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ball.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ball.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ball.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ball.physicMaterial" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ball.physicMaterial" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/transparent.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/transparent.mat" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Move.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OtherBall.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LifeCycle.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/LifeCycle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Move.cs" />
+        <option value="$PROJECT_DIR$/Assets/OtherBall.cs" />
+        <option value="$PROJECT_DIR$/Assets/Ball.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hxLmP33RnlsnS0ZS9ZSUVm9xxN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$PROJECT_DIR$/../../../VngAndroid/1.SDK/Sdk" />
+    <property name="settings.editor.selected.configurable" value="consents" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="129d8a8e-e2f9-40c1-834b-997656dcc79d" name="Default Changelist" comment="" />
+      <created>1600947958136</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600947958136</updated>
+      <workItem from="1600947969510" duration="6734000" />
+      <workItem from="1601035587104" duration="3893000" />
+      <workItem from="1601277904294" duration="598000" />
+      <workItem from="1601294530346" duration="1372000" />
+    </task>
+    <task id="LOCAL-00001" summary="RD IDE git push">
+      <created>1600952034709</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600952034709</updated>
+    </task>
+    <task id="LOCAL-00002" summary="09.24E">
+      <created>1600957510373</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600957510373</updated>
+    </task>
+    <task id="LOCAL-00003" summary="09.25E11">
+      <created>1601039947354</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601039947355</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="RD IDE git push" />
+    <MESSAGE value="09.24E" />
+    <MESSAGE value="09.25E11" />
+    <option name="LAST_COMMIT_MESSAGE" value="09.25E11" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="672" y="157" key="RollbackChangesDialog" timestamp="1601039915835">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="672" y="157" key="RollbackChangesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601039915835" />
+    <state x="180" y="281" width="1038" height="612" key="VCS.FileHistoryDialog" timestamp="1601295861499">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="180" y="281" width="1038" height="612" key="VCS.FileHistoryDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601295861499" />
+    <state x="821" y="297" key="Vcs.Push.Dialog.v2" timestamp="1601040097310">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="821" y="297" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601040097310" />
+    <state x="892" y="307" width="672" height="678" key="search.everywhere.popup" timestamp="1600956955201">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="892" y="307" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600956955201" />
+  </component>
+</project>
