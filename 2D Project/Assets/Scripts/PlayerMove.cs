@@ -5,75 +5,129 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
+    public GameManager gamaManager;
     public float maxSpeed = 4f;
     public float jumpPower = 15f;
     
-    Rigidbody2D rigid;
-    SpriteRenderer spriteRenderer;
-    Animator anim;
+    Rigidbody2D _rigid;
+    SpriteRenderer _spriteRenderer;
+    Animator _anim;
+    CapsuleCollider2D _collider;
+    AudioSource _audioSource;
+
+    public AudioClip audioJump;
+    public AudioClip audioAttack;
+    public AudioClip audioDamaged;
+    public AudioClip audioItem;
+    public AudioClip audioDie;
+    public AudioClip audioFinish;
     void Awake()
     {
-        rigid = GetComponent<Rigidbody2D>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        anim = GetComponent<Animator>();
+        _rigid = GetComponent<Rigidbody2D>();
+        _spriteRenderer = GetComponent<SpriteRenderer>();
+        _anim = GetComponent<Animator>();
+        _collider = GetComponent<CapsuleCollider2D>();
+        _audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
     {
-        if (Input.GetButtonUp("Jump") && !anim.GetBool("isJumping"))
+        if (Input.GetButtonUp("Jump") && !_anim.GetBool("isJumping"))
         {
-            rigid.AddForce(Vector2.up*jumpPower,ForceMode2D.Impulse);
-            anim.SetBool("isJumping", true);
+            _rigid.AddForce(Vector2.up*jumpPower,ForceMode2D.Impulse);
+            _anim.SetBool("isJumping", true);
+            PlaySound("JUMP");
         }
         
         if(Input.GetButtonUp("Horizontal"))
-            rigid.velocity = new Vector2(rigid.velocity.normalized.x* 0.3f, rigid.velocity.y);
+            _rigid.velocity = new Vector2(_rigid.velocity.normalized.x* 0.3f, _rigid.velocity.y);
 
-        if (Input.GetButtonDown("Horizontal"))
-            spriteRenderer.flipX = Input.GetAxisRaw("Horizontal") == -1;
+        if (Input.GetButton("Horizontal"))
+            _spriteRenderer.flipX = Input.GetAxisRaw("Horizontal") == -1;
         
-        if(Mathf.Abs(rigid.velocity.x) < 0.3)
-            anim.SetBool("isWalking", false);
+        if(Mathf.Abs(_rigid.velocity.x) < 0.3)
+            _anim.SetBool("isWalking", false);
         else 
-            anim.SetBool("isWalking", true);
+            _anim.SetBool("isWalking", true);
     }
     void FixedUpdate()
     {
         float h = Input.GetAxisRaw("Horizontal");
         
-        rigid.AddForce(Vector2.right*h,ForceMode2D.Impulse);
+        _rigid.AddForce(Vector2.right*h,ForceMode2D.Impulse);
         
-        if(rigid.velocity.x > maxSpeed )
-            rigid.velocity = new Vector2(maxSpeed, rigid.velocity.y);
-        else if(rigid.velocity.x < maxSpeed*(-1))
-            rigid.velocity= new Vector2(maxSpeed*(-1), rigid.velocity.y);
+        if(_rigid.velocity.x > maxSpeed )
+            _rigid.velocity = new Vector2(maxSpeed, _rigid.velocity.y);
+        else if(_rigid.velocity.x < maxSpeed*(-1))
+            _rigid.velocity= new Vector2(maxSpeed*(-1), _rigid.velocity.y);
 
-        Debug.DrawRay(rigid.position, Vector3.down, new Color(0,1,0));
-        if (rigid.velocity.y < 0)
+        Debug.DrawRay(_rigid.position, Vector3.down, new Color(0,1,0));
+        if (_rigid.velocity.y < 0)
         {
-            RaycastHit2D rayHit = Physics2D.Raycast(rigid.position, Vector2.down, 1, LayerMask.GetMask("Platform"));
+            RaycastHit2D rayHit = Physics2D.Raycast(_rigid.position, Vector2.down, 1, LayerMask.GetMask("Platform"));
             if (rayHit.collider != null)
                 if (rayHit.distance < 0.5f)
-                    anim.SetBool("isJumping", false);
+                    _anim.SetBool("isJumping", false);
         }
     }
 
     void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.tag == "Enemy")
-            onDamaged(other.transform.position);
+        if (other.gameObject.CompareTag("Enemy"))
+            if (_rigid.velocity.y < 0 && transform.position.y > other.transform.position.y)
+            {
+                onAttack(other.transform);
+                PlaySound("ATTACK");
+                gamaManager.stagePoint += 100;
+            }
+            else
+            {
+                onDamaged(other.transform.position);
+                PlaySound("DAMAGED");
+            }
     }
 
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Item")
+        {
+            bool isBronze = other.gameObject.name.Contains("Bronze");
+            bool isSilver = other.gameObject.name.Contains("Silver");
+            bool isGold = other.gameObject.name.Contains("Gold");
+
+            if (isBronze)
+                gamaManager.stagePoint += 50;
+            else if(isSilver)
+                gamaManager.stagePoint += 100;
+            else if(isGold)
+                gamaManager.stagePoint += 300;
+            
+            other.gameObject.SetActive(false);
+            PlaySound("ITEM");
+        }else if (other.gameObject.tag == "Finish")
+        {
+            gamaManager.NextStage();
+            PlaySound("FINISH");
+        }
+    }
+
+    void onAttack(Transform e)
+    {
+        EnemyMove enemyMove = e.GetComponent<EnemyMove>();
+        enemyMove.onDamaged();
+    }
     void onDamaged(Vector2 targetPos)
     {
+        gamaManager.HealthDown();
+        
         gameObject.layer = 11;
 
-        spriteRenderer.color = new Color(1, 1, 1, 0.4f);
+        _spriteRenderer.color = new Color(1, 1, 1, 0.4f);
 
         int direction = transform.position.x - targetPos.x > 0 ? 1 : -1;
-        rigid.AddForce(new Vector2(direction,1) * 10, ForceMode2D.Impulse);
+        _rigid.AddForce(new Vector2(direction,1) * 10, ForceMode2D.Impulse);
 
-        anim.SetTrigger("doDamaged");
+        _anim.SetTrigger("doDamaged");
         
         Invoke("offDamaged",2);
     }
@@ -81,6 +135,49 @@ public class PlayerMove : MonoBehaviour
     void offDamaged()
     {
         gameObject.layer = 10;
-        spriteRenderer.color = new Color(1, 1, 1, 1);
+        _spriteRenderer.color = new Color(1, 1, 1, 1);
+    }
+
+    void PlaySound(string action)
+    {
+        switch (action)
+        {
+            case "JUMP":
+                _audioSource.clip = audioJump;
+                break;
+            case "ATTACK":
+                _audioSource.clip = audioAttack;
+                break;
+            case "DAMAGED":
+                _audioSource.clip = audioDamaged;
+                break;
+            case "ITEM":
+                _audioSource.clip = audioItem;
+                break;
+            case "DIE":
+                _audioSource.clip = audioDie;
+                break;
+            case "FINISH":
+                _audioSource.clip = audioFinish;
+                break;
+        }
+
+        _audioSource.Play();
+    }
+
+    public void onDie()
+    {
+        _spriteRenderer.color = new Color(1, 1, 1, 0.4f);
+        _spriteRenderer.flipY = true;
+
+       _collider.enabled = false;
+
+        _rigid.AddForce(Vector2.up * 5, ForceMode2D.Impulse);
+        PlaySound("DIE");
+    }
+
+    public void VelocityZero()
+    {
+        _rigid.velocity = Vector2.zero;
     }
 }

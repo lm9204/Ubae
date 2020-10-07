@@ -21,16 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="c7192eb9-957b-4d31-bf5f-c7c8b3e2ec51" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2D Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D Project/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.2D Project/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D Project/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2D Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D Project/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Enemy.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Enemy.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Enemy_walk.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Enemy_walk.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Enemy_walk.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Enemy_walk.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Item.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Item.controller.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TileMap/Platform Palette.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TileMap/Platform Palette.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +46,7 @@
       <list>
         <option value="$PROJECT_DIR$/../.gitignore" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs" />
       </list>
     </option>
@@ -102,7 +99,8 @@
       <workItem from="1601615103643" duration="180000" />
       <workItem from="1601615711073" duration="164000" />
       <workItem from="1601889789253" duration="5598000" />
-      <workItem from="1601983082638" duration="4809000" />
+      <workItem from="1601983082638" duration="5577000" />
+      <workItem from="1602069758414" duration="6477000" />
     </task>
     <task id="LOCAL-00001" summary="Edit gitignore">
       <created>1601615828433</created>
@@ -118,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601900637542</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="B19">
+      <created>1601988562903</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601988562903</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +147,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Edit gitignore" />
     <MESSAGE value="10.05E18" />
-    <option name="LAST_COMMIT_MESSAGE" value="10.05E18" />
+    <MESSAGE value="B19" />
+    <option name="LAST_COMMIT_MESSAGE" value="B19" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="147" key="SettingsEditor" timestamp="1601901006175">
@@ -153,6 +159,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="537" y="231" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601900642464" />
+    <state x="866" y="214" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602071590702">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="866" y="214" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602071590702" />
     <state x="1089" y="195" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1601615741405">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
