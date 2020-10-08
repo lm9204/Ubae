@@ -58,6 +58,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\PlayerAction.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/vapor/New Unity Project/2D Project 2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
